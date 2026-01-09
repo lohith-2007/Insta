@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa; /* Light background for a modern look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+}
+
+.container {
+    max-width: 600px; /* Limit width for better focus */
+    background-color: #ffffff; /* White background for the card */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners for a super UI */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.container:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+h1 {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for emphasis */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary color */
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect for interactivity */
+}
+
+.input-group-text {
+    background-color: #e9ecef; /* Light gray for input prefix */
+    border-right: none; /* Seamless look */
+}
+
+#result {
+    font-size: 1.1rem; /* Larger text for better readability */
+    color: #28a745; /* Green for success messages */
+}
+
+#result.error {
+    color: #dc3545; /* Red for error messages */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
